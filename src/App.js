@@ -69,7 +69,7 @@ function App() {
         <p>{handleDate()}</p>
       </header>
 
-      {typeof weather.main !== "undefined" && search !== "" ? (
+      {typeof weather.main !== "undefined" ? (
         <div className="Data">
           {/* Location  */}
           <div className="location">
